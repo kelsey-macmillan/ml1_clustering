@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 from sklearn.cluster import DBSCAN
 from sklearn.cluster import MiniBatchKMeans
+%matplotlib inline
+
 
 #########################################################################################
 #                                      Functions                                        #
@@ -147,7 +149,7 @@ def min_to_time(x):
 #########################################################################################
 
 # Import Data
-df = import_data('green_tripdata_2016-03_subset.csv')
+df = import_data('green_tripdata_2016-03.csv')
 
 #########################################################################################
 # QUESTION 1: What is the time scope of your analysis?                                  #
